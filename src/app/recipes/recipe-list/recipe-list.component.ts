@@ -9,7 +9,8 @@ import { Recipe } from "../recipe.model";
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is simply a test', 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brit.co%2Findian-food-recipes%2F&psig=AOvVaw2E_kAnL60blrDqTb916Khf&ust=1593903551298000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCm-s2XsuoCFQAAAAAdAAAAABAI'),
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://www.brit.co/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMjg2NzAwMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY0Mjg2NDgyMH0.M3iii2BGIn3WRd0Jl44ifXjJ4oLifYz_has63_qUVVQ/image.jpg?width=980'),
+    new Recipe('A Test Recipe 2', 'This is simply a test', 'https://www.brit.co/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMjg2NzAwMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY0Mjg2NDgyMH0.M3iii2BGIn3WRd0Jl44ifXjJ4oLifYz_has63_qUVVQ/image.jpg?width=980'),
   ];
 
   constructor() { }
